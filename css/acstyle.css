@@ -1,0 +1,10 @@
+body{ 
+    background-color: azure;
+    background: s;
+}
+.container{
+    padding: 5px;
+    border-radius: 30px;
+    display: flex;
+
+}

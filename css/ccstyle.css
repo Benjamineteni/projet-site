@@ -1,0 +1,27 @@
+body{
+    font-family: nonespace;
+    overflow: hidden;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    max-width: 90px;
+    transition: transform 1s;
+}
+header img{
+    width: 60px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    position: relative;
+}

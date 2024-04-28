@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.logo img{
+    width: 130px;
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+/* image du super marcher*/
+    header img{
+        width: 100px;
+        color: bisque;
+    }
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    header iconcart{
+        position: relative;
+        z-index: 1;
+    }
+
+        .fieldset.img{
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            font-size: x-large;
+            background-color:red;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            color: aliceblue;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: translateX(20px);
+        }
+
+
+
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+.container{
+    max-width: 1300px;
+    margin: 20px auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.container a{
+    text-decoration: none;
+    padding: 10px 30px;
+    background: rgb(206, 177, 50);
+    color: rgb(236, 233, 230);
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 25px;
+    transition: background 0.9s;
+ 
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.col-2{
+    flex: 50%;
+    min-height: 300%;
+
+}
+
+.col-2 img{
+    width: 300px;
+    padding-top: 70px;
+}
+
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+    
+}
+
+p{
+    color: black;
+}
+.col-2 a{
+    text-decoration: none;
+    padding: 10px 30px;
+    background: rgb(65, 138, 65);
+    color: rgb(236, 233, 230);
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 25px;
+    transition: background 0.9s;
+
+}
+.col-2 a:hover{
+    background: rgb(44, 50, 141);
+}
+
+.header-section{
+    margin-top: -20px;
+    background: radial-gradient(#cfbaba, #d6dadf);
+}
+/* style de la section des categories*/
+.categories{
+    margin: 70px 0;
+}
+
+.col-3{
+    flex-basis: 30px;
+    min-width: 250px;
+    margin: auto;
+    transition: transform 0.4s;
+}
+.col-3 img{
+    width: 300px;
+    margin: 50px;
+}
+
+.container h2{
+    text-align: center;
+    font-size: 1.8rem;
+    color: black;
+    margin: 50px 0;
+}
+.col-3 :hover{
+    transform: translateY(-7px);
+}
+.col-4{
+    flex-basis: 30px;
+    min-width: 250px;
+    margin: auto;
+    transition: transform 0.4s;
+}
+.col-4 img{
+    width: 250px;
+    margin: 35px;
+}
+.col-4 :hover{
+    transform: translateY(-7px);
+} 
+
+form{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+
+}
+input [type="text"]{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-right: 4px;
+}
+
+button{
+     color: rgb(42, 9, 161);
+     padding-right: 5px;
+     margin: 5px;
+     display: flex;
+     border: 1px solid #ccc;
+     border-radius: 10px;
+
+
+}
