@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Raleway-Medium';
+    src: url(../fonts/Raleway-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway-bold';
+    src: url(../fonts/Raleway-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway-ExtraBold';
+    src: url(../fonts/Raleway-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway-Light';
+    src: url(../fonts/Raleway-Light.ttf) format('truetype');
+}
+
+strong {
+    font-weight: bold;
+
+}
+.link h5,
+.cards h5,
+.header .headSignup,
+.submit__submitTxt,
+.filter span {
+    font-family: 'Raleway-bold', sans-serif;
+    font-size: 1.1em;
+}
+
+.headNav,
+.headNavLink1,
+.search_form .place input {
+    font-family: 'Raleway-Medium', sans-serif;
+    font-size: 1.15em;
+}
+
+.activity h3,
+.housingTitle,
+.pop .popTitle {
+    font-size: 1.2em;
+    font-family: 'Raleway-ExtraBold', sans-serif;
+}
+
+.filtres{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-pack: distribute;
+    -webkit-justify-content: space-around;
+            justify-content: space-around;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+    margin-left: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 1000px;
+}
+
+.filter .salutation{
+    border: solid #F2F2F2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-border-radius: 30px;
+            border-radius: 30px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+    text-decoration: none;
+    height: 50px;
+    padding-right: 15px;
+    margin-right: 10px;
+    -webkit-box-shadow: inset 5px -5px 5px 1px #dfdfdf;
+    box-shadow: inset 5px -5px 5px 1px #dfdfdf;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
